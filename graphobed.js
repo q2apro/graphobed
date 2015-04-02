@@ -73,8 +73,12 @@ return null==r||((w=0>r||r>8)||0!==r&&(n.errors?parseInt:parseFloat)(r)!=r)&&!p(
  *
  *
  * USAGE:
- * embed script in your document's head: 
- * <script src="http://www.echteinfach.tv/tools/graphobed.js" type="text/javascript"></script>
+ * 
+ * Simply embed the script in your document's head section: 
+ * 
+ *     <script src="https://raw.githubusercontent.com/echteinfachtv/graphobed/master/graphobed.js" type="text/javascript"></script>
+ *
+ * The formula parsing is done automatically.
  * 
 **/
 

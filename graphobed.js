@@ -22,8 +22,8 @@ if(e&&e.alpha==d.alpha||(b.opacity=""+(0|d.alpha*f)/f,e&&(e.alpha=d.alpha)),!e||
  * It features real and complex numbers, units, matrices, a large set of
  * mathematical functions, and a flexible expression parser.
  *
- * @version 0.26.0
- * @date    2014-08-03
+ * @version 0.0.1.2
+ * @date    2017-03-04
  *
  * @license
  * Copyright (C) 2013-2014 Jos de Jong <wjosdejong@gmail.com>
@@ -60,8 +60,8 @@ return null==r||((w=0>r||r>8)||0!==r&&(n.errors?parseInt:parseFloat)(r)!=r)&&!p(
  * Embedded Graphs can be changed later on, use the created input field.
  * This script relies on: jquery, easeljs, math.js
  *
- * @version 0.0.1
- * @date    2015-04-02
+ * @version 0.0.1.2
+ * @date    2017-03-04
  *
  * @license
  * Copyright (C) 2015 Kai Noack, http://www.echteinfach.tv/

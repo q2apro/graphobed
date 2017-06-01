@@ -18,7 +18,7 @@ dd  config.vm.box = "deb/jessie-i386"
                     '--size', 50000]
 
       vb.customize ['storageattach', :id,
-                    '--storagectl', 'SATA Controller',
+                    '--storagectl', 'SCSI',
                     '--port', 0,
 		    '--device', 0,
                     '--type', 'hdd',

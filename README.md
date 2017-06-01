@@ -1,5 +1,5 @@
 # graphobed #
-
+vdi format size http://crysol.github.io/recipe/2015-11-17/vagrant-vdi-virtual-disk-for-virtualbox.html#.WS_4tBsrJEY
 **graphobed** is a jquery script that finds equations on your website, 
 parses them and embeds the according graphs below the formula as HTML5 canvas. 
 To let the script find your equations, enclose them in `*# equation #*`

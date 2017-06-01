@@ -1,5 +1,32 @@
 # graphobed #
+vdi format size http://crysol.github.io/recipe/2015-11-17/vagrant-vdi-virtual-disk-for-virtualbox.html#.WS_4tBsrJEY
 
+
+VAGRANTFILE_API_VERSION = "2"
+
+
+HOME_DISK = "/var/home.vdi"
+
+ddVagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+dd  config.vm.box = "deb/jessie-i386"
+
+ dd config.vm.provider :virtualbox do |vb|
+    if ARGV[0] == "up" && ! File.exist?(HOME_DISK)
+      vb.customize ['createhd',
+                    '--filename', HOME_DISK,
+                    '--format', 'VDI',
+                    '--size', 50000]
+
+      vb.customize ['storageattach', :id,
+                    '--storagectl', 'SCSI',
+                    '--port', 0,
+		    '--device', 0,
+                    '--type', 'hdd',
+		    '--medium', HOME_DISK]
+    end
+ 
+ 
+ end end
 **graphobed** is a jquery script that finds equations on your website, 
 parses them and embeds the according graphs below the formula as HTML5 canvas. 
 To let the script find your equations, enclose them in `*# equation #*`

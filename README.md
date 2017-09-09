@@ -32,5 +32,3 @@ The formula parsing is done automatically.
 
 ![](http://i.stack.imgur.com/IzSz3.gif)
 
-We use the library in our [mathematics forum (see example here)](http://www.gute-mathe-fragen.de/223069/graphobed-eingegebene-formeln-automatisch-graphen-umgewandelt).
-

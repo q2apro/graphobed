@@ -12,7 +12,7 @@ This script relies on: jquery, easeljs and math.js
 @date    2015-04-02
 
 @license
-Copyright (C) 2015 Kai Noack, http://www.echteinfach.tv/
+Copyright (C) 2015 Kai Noack 
 
 Distributed under the terms of the MIT license.
 http://www.opensource.org/licenses/mit-license.html
